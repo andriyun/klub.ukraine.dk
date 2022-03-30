@@ -1,0 +1,22 @@
+uuid: 302973b1-cf44-4735-a0b2-4c04969f1974
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - klub_ukraine
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: klub_ukraine_breadcrumbs
+theme: klub_ukraine
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 225856f1-0689-4d34-b980-bf1f4b3c81b5
+langcode: uk
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - klub_ukraine
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: klub_ukraine_help
+theme: klub_ukraine
+region: content_above
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

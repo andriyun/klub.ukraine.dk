@@ -1,0 +1,23 @@
+uuid: 299ac81c-1d44-4a4a-8d43-9e28a97f4628
+langcode: uk
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - klub_ukraine
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: klub_ukraine_search_form_narrow
+theme: klub_ukraine
+region: primary_menu
+weight: -8
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

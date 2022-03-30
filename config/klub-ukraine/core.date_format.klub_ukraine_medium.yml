@@ -1,0 +1,13 @@
+uuid: a760880f-af3e-42e8-8f99-2f8fb9534ec6
+langcode: uk
+status: true
+dependencies:
+  enforced:
+    theme:
+      - klub_ukraine
+_core:
+  default_config_hash: RgkgOjTu5g50wJf_zhSn8-0YyNU3aQ0LwS40VNdl3Ig
+id: klub_ukraine_medium
+label: 'klub_ukraine Medium'
+locked: false
+pattern: 'j  F,  Y'

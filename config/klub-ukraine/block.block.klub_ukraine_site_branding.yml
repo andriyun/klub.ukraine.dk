@@ -1,0 +1,25 @@
+uuid: 9ae64f17-7fee-4dca-9687-4e446b9a7cf5
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - klub_ukraine
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: klub_ukraine_site_branding
+theme: klub_ukraine
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

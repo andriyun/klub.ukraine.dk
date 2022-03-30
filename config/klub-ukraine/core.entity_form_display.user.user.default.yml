@@ -1,5 +1,5 @@
 uuid: 8f87c243-be99-4780-b928-6c5dfab75236
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -35,4 +35,5 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  langcode: true

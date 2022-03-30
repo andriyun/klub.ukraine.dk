@@ -1,0 +1,20 @@
+uuid: f664f7c0-833b-477a-bd04-5394613fe7d9
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - klub_ukraine
+_core:
+  default_config_hash: pi7piR3GUVsCBF0t6WaDexBZGS5UiNiFHsH70E0egoQ
+id: ku_primary_admin_actions
+theme: klub_ukraine
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

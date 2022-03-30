@@ -1,5 +1,6 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
+langcode: uk
 module:
   admin_toolbar: 0
   admin_toolbar_tools: 0
@@ -12,6 +13,7 @@ module:
   color: 0
   comment: 0
   config: 0
+  config_translation: 0
   contact: 0
   contextual: 0
   datetime: 0
@@ -25,9 +27,11 @@ module:
   help: 0
   history: 0
   image: 0
+  language: 0
   layout_builder: 0
   layout_discovery: 0
   link: 0
+  locale: 0
   menu_link_content: 0
   menu_ui: 0
   node: 0
@@ -43,6 +47,7 @@ module:
   text: 0
   toolbar: 0
   tour: 0
+  translated_config: 0
   update: 0
   user: 0
   views_ui: 0
@@ -52,4 +57,5 @@ theme:
   bartik: 0
   seven: 0
   olivero: 0
+  klub_ukraine: 0
 profile: standard

@@ -1,5 +1,5 @@
 uuid: 117bc280-64f3-46a3-81a8-0792945df919
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -60,4 +60,5 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  langcode: true

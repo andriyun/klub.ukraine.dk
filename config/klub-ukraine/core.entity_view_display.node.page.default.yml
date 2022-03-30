@@ -1,5 +1,5 @@
 uuid: 6d3306cf-e3ef-4432-942b-517e2e3e27de
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -7,6 +7,7 @@ dependencies:
     - node.type.page
   module:
     - layout_builder
+    - layout_discovery
     - text
     - user
 third_party_settings:
@@ -64,4 +65,5 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  langcode: true

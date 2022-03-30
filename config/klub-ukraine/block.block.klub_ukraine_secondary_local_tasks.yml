@@ -1,0 +1,22 @@
+uuid: 38924579-e794-4ee2-9b3d-a6ce6fe79669
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - klub_ukraine
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: klub_ukraine_secondary_local_tasks
+theme: klub_ukraine
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

@@ -1,6 +1,6 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
-langcode: en
+langcode: uk
 uuid: ed1c4896-f1a3-4462-a990-7cbb43a144ca
 name: 'Klub Ukraine'
 mail: andriy.yun@gmail.com
@@ -8,7 +8,7 @@ slogan: ''
 page:
   403: ''
   404: ''
-  front: /node/1
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: en
+default_langcode: uk

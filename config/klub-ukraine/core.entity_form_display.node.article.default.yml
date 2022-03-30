@@ -1,5 +1,5 @@
 uuid: 18f5cf93-e90e-40e0-91a7-ff08b5ae5243
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -60,6 +60,13 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   path:
     type: path
