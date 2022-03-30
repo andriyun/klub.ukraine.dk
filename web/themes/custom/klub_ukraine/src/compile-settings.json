@@ -1,0 +1,11 @@
+{
+  "javascripts": [
+    "src/javascripts/app.js"
+  ],
+  "styles": [
+    "src/styles/stylesheet.scss"
+  ],
+  "fonts": [
+    "src/fonts/**/*"
+  ]
+}

@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    theme:
+      - klub_ukraine
+id: klub_ukraine_medium
+label: 'klub_ukraine Medium'
+locked: false
+pattern: 'j  F,  Y'
