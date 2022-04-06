@@ -1,30 +1,28 @@
-uuid: adbe0d3f-bcf4-4448-9c13-924e5f921951
-langcode: uk
+uuid: 2a5eaf0f-0d7a-4d89-880c-102a2efca206
+langcode: da
 status: true
 dependencies:
   config:
-    - system.menu.main
+    - system.menu.main-navigation-da
   module:
     - language
     - system
   theme:
     - klub_ukraine
-_core:
-  default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
-id: klub_ukraine_main_menu
+id: mainnavigationda
 theme: klub_ukraine
 region: primary_menu
-weight: -7
+weight: -6
 provider: null
-plugin: 'system_menu_block:main'
+plugin: 'system_menu_block:main-navigation-da'
 settings:
-  id: 'system_menu_block:main'
-  label: 'Main navigation'
+  id: 'system_menu_block:main-navigation-da'
+  label: 'Main navigation da'
   label_display: '0'
   provider: system
   level: 1
-  depth: 2
-  expand_all_items: true
+  depth: 0
+  expand_all_items: false
 visibility:
   language:
     id: language
@@ -32,4 +30,4 @@ visibility:
     context_mapping:
       language: '@language.current_language_context:language_interface'
     langcodes:
-      uk: uk
+      da: da

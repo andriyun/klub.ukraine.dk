@@ -1,0 +1,25 @@
+uuid: 0d91831b-0ad1-4ba8-a835-afab0b962f17
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0ee31b7a-ae23-4c40-b1d6-6864f7fbba2a'
+  module:
+    - block_content
+  theme:
+    - klub_ukraine
+id: copyright
+theme: klub_ukraine
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:0ee31b7a-ae23-4c40-b1d6-6864f7fbba2a'
+settings:
+  id: 'block_content:0ee31b7a-ae23-4c40-b1d6-6864f7fbba2a'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

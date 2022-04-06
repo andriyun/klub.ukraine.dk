@@ -1,0 +1,20 @@
+uuid: b73ac2d9-cd48-4e9e-ad5c-f8de01204022
+langcode: uk
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - klub_ukraine
+id: languageswitcher_2
+theme: klub_ukraine
+region: primary_menu
+weight: -5
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

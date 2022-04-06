@@ -1,7 +1,15 @@
 uuid: 9ab09bab-9465-40d7-b71c-820dbe3f96ee
 langcode: uk
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - main-navigation-da
+    parent: 'main:'
 _core:
   default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
 name: Article

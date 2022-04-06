@@ -1,34 +1,35 @@
-uuid: 3810a0e0-4143-4397-a09a-9fcf57cd4102
+uuid: 96c5f593-866a-4d4b-b3d4-7a7c9ea2b86d
 langcode: uk
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.full
     - field.field.node.page.body
     - field.field.node.page.field_summary
     - node.type.page
   module:
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
 _core:
-  default_config_hash: 8BgdRtLbtQ0F__o0FHSH0Mx5fvXOra9tfT1GmNKbRYw
-id: node.page.teaser
+  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+id: node.page.full
 targetEntityType: node
 bundle: page
-mode: teaser
+mode: full
 content:
-  field_summary:
+  body:
     type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 0
     region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
 hidden:
-  body: true
+  field_summary: true
   langcode: true
+  links: true
