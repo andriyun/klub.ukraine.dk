@@ -17,7 +17,9 @@ settings:
         -
           name: 'Block Formatting'
           items:
+            - Maximize
             - Format
+            - Styles
         -
           name: Formatting
           items:
@@ -28,6 +30,7 @@ settings:
             - Subscript
             - '-'
             - RemoveFormat
+            - DrupalFontAwesome
         -
           name: Alignment
           items:
@@ -60,10 +63,10 @@ settings:
             - ShowBlocks
             - Source
   plugins:
-    stylescombo:
-      styles: ''
     language:
       language_list: un
+    stylescombo:
+      styles: ''
 image_upload:
   status: true
   scheme: public

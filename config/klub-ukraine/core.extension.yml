@@ -20,10 +20,12 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  editor_advanced_link: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
+  fontawesome: 0
   help: 0
   history: 0
   image: 0
