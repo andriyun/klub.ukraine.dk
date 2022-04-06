@@ -1,0 +1,52 @@
+// |--------------------------------------------------------------------------
+// | Misc
+// |--------------------------------------------------------------------------
+// |
+// | This file contains styles for the following:
+// | .header-social
+// |
+
+// --------------------------------------------------
+// Variables
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Styling
+// --------------------------------------------------
+.header-social {
+  display: none;
+}
+@media (min-width: 75rem) {
+  .header-social {
+    display: block;
+    position: absolute;
+    z-index: 105;
+    left: 0;
+    bottom: -90px;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+
+    a {
+      padding-top: 15px;
+      display: block;
+      color: #2494db;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+// --------------------------------------------------
+// Responsive
+// --------------------------------------------------
+
+// Print
+@media print {}
+
+// Touch
+.touchevents {}
+
+// No touch
+.no-touchevents {}
